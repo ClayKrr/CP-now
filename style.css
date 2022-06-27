@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.778), rgba(20, 13, 72, 0.189)), url(got.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header ul li a {
+    color: rgb(211, 194, 194);
+    margin: 20px;
+    text-decoration: none;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    transition: all 0.8s ease 0s;
+    padding: 0px 20px;
+}
+
+header a:hover {
+    cursor: pointer;
+    color: rgb(113, 112, 112);
+}
+
+header img {
+    width: 150px;
+    margin-left: 150px;
+    margin-top: -25px;
+}
+
+header button {
+    border: none;
+    background-color: #16283B;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 18px;
+    margin-right: 80px;
+}
+
+header button:hover {
+    cursor: pointer;
+    background-color: #0e1a27;
+}
+
+.main {
+    height: 200px;
+}
+
+@media all and (max-width: 1500px) {
+    .main {
+        height: 160px;
+    }
+}
+
+.main img {
+    display: block;
+    margin: 100px 120px 120px 120px;
+    border-radius: 10px;
+    float: right;
+}
+
+.main-child {
+    display: block;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 50%;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    top: 10%;
+}
+
+@media (max-width: 768px) {
+    .main-child {
+        display: none;
+    }
+}
+
+.main-child button {
+    border: none;
+    background-color: #13293dd7;
+    color: white;
+    border-radius: 50px;
+    margin-right: 13px;
+    margin-left: 13px;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 25px;
+    transition: .6s ease;
+}
+
+@media (max-width: 1420px) {
+    .main.child button {
+        font-size: 20px;
+        padding: 20px 30px 20px 30px;
+    }
+}
+
+.main-child button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #0a151f;
+}
+
+.main-child i {
+    margin-right: 10px;
+    font-size: 30px;
+    color: #A1B7CC;
+    transition: .6s ease;
+}
+
+.main-child i:hover {
+    cursor: pointer;
+    color: #2d5e8c;
+}
+
+.child {
+    position: absolute;
+    color: white;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.inside-child {
+    line-height: 2;
+}
+
+.inside-child h1 {
+    font-size: 40px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.inside-child p {
+    font-size: 17px;
+    font-family: 'Cinzel', serif;
+}
+
+span {
+    color: #A1B7CC;
+    font-weight: bold;
+}
+
+.line1 {
+    position: absolute;
+    height: 3px;
+    background-color: #A1B7CC;
+    width: 20%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.latest-movies {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 40, 40);
+    margin-top: 520px;
+    padding: 0px 20px;
+}
+
+.latest-movies h1 {
+    margin: 70px 70px 50px 70px;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    color: #a1b7cc;
+}
+
+.latest-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.latest-inside img {
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.latest-inside img:hover {
+    transform: scale(1.2);
+}
+
+.heading1 {
+    color: white;
+    line-height: 1.5;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.heading1 h3 {
+    font-size: 14px;
+}
+
+.heading1 h6 {
+    font-size: 10px;
+}
+
+.top-movies {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 24, 24);
+    padding: 0px 20px;
+    margin-top: 1100px;
+}
+
+.top-movies h1 {
+    margin: 70px 70px 50px 70px;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    color: #a1b7cc;
+}
+
+.top-container {
+    margin-top: 30px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-inside {
+    color: white;
+    line-height: 1.5;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.top-inside h3 {
+    color: white;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    margin-top: 18px;
+    margin-left: 12px;
+}
+
+.top-inside h6 {
+    margin-left: 12px;
+    font-size: 10px;
+    color: white;
+}
+
+.top-inside img {
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.top-inside img:hover {
+    transform: scale(1.11);
+}
+
+.imdb {
+    background: #A1B7CC;
+    border-radius: 20px;
+    position: absolute;
+    padding: 10px 10px;
+    color: #282828;
+    margin-top: -80px;
+    font-family: 'Cinzel', serif;
+    margin-left: 140px;
+    font-weight: bold;
+}
+
+.more1 {
+    margin: 70px 70px 50px 70px;
+    font-size: 20px;
+    color: #a1b7cc;
+    position: absolute;
+    margin-top: 1180px;
+    font-family: 'Cinzel', serif;
+    margin-left: 1220px;
+}
+
+@media all and (max-width: 1420px) {
+    .more1 {
+        font-size: 15px;
+    }
+}
+
+.more1 a {
+    color: #A1B7CC;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.more1 a:hover {
+    color: #6b8dad;
+}
+
+.clay-series {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #282828;
+    padding: 0px 20px;
+    margin-top: 1800px;
+}
+
+.clay-series h1 {
+    margin: 70px 70px 50px 70px;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    color: #a1b7cc;
+}
+
+.clay-container {
+    margin-top: 30px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clay-inside h3 {
+    color: white;
+    line-height: 1.5;
+    font-size: 15px;
+    margin-top: 18px;
+    font-family: 'Cinzel', serif;
+    margin-left: 12px;
+}
+
+.clay-inside h6 {
+    margin-left: 12px;
+    font-size: 10px;
+    color: white;
+}
+
+.clay-inside img {
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.clay-inside img:hover {
+    transform: scale(1.11);
+}
+
+.more2 {
+    margin: 70px 70px 50px 70px;
+    font-size: 20px;
+    color: #a1b7cc;
+    position: absolute;
+    margin-top: 1875px;
+    font-family: 'Cinzel', serif;
+    margin-left: 1220px;
+}
+
+@media all and (max-width: 1420px) {
+    .more2 {
+        font-size: 15px;
+    }
+}
+
+.more2 a {
+    color: #A1B7CC;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.more2 a:hover {
+    color: #6b8dad;
+}
+
+.actors {
+    position: absolute;
+    height: 88%;
+    width: 100%;
+    background: #181818;
+    color: white;
+    margin-top: 2400px;
+    padding: 10px 170px;
+    line-height: 1.9;
+}
+
+.actors i {
+    color: #6b8dad;
+}
+
+.actors h1 {
+    font-family: 'Cinzel', serif;
+    color: #A1B7CC;
+    margin-top: 50px;
+    margin-left: -80px;
+}
+
+.actors p {
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.line {
+    height: 2px;
+    background-color: #ffffff;
+    width: 8.7%;
+    margin-top: 6%;
+    margin-left: -75px;
+    position: absolute;
+}
+
+.actors-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+@media all and (max-width: 1420px) {
+    .actors {
+        height: 760px;
+    }
+}
+
+.inside-actors img {
+    padding: 10px 0px;
+    height: 350px;
+    width: 240px;
+    margin-top: -10px;
+    border-radius: 50px;
+    transition: all .5s ease-in-out;
+}
+
+.inside-actors img:hover {
+    transform: scale(1.03);
+}
+
+.heading2 h2 {
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+}
+
+.heading2 {
+    margin-top: -20px;
+    background-color: #181818;
+    border-radius: 40px;
+    border: 3px solid #6b8dad;
+    text-align: center;
+}
+
+.heading2 p {
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    margin-left: 1px;
+}
+
+.heading2:hover {
+    background-color: #0a151f;
+}
+
+.heading2 i {
+    font-size: 40px;
+    color: white;
+}
+
+.heading2 i:hover {
+    color: #6b8dad;
+}
+
+.like p {
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    margin-top: 3100px;
+    height: 100px;
+    color: white;
+    background: #282828;
+    width: 100%;
+}
+
+
+
+.logopart img {
+    height: 50px;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.logopart h1 {
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.socials i {
+    font-size: 27px;
+    margin-top: 30px;
+    padding: 0px 10px;
+    color: white;
+}
+
+.socials i:hover {
+    cursor: pointer;
+    color: #25649f;
+}
+
+.btn4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn4 button {
+    border: none;
+    background-color: #16283B;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 50px 10px 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.btn4 button:hover {
+    cursor: pointer;
+    background-color: #0e1a27;
+}
+
+.scroll {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #A1B7CC;
+    border-radius: 50px;
+    bottom: 100px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.scroll i {
+    color: #282828;
+}
+
+.scroll i:hover {
+    cursor: pointer;
+}
+
+.scroll button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}

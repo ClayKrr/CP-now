@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3cafbdd11e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="pictures/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="pictures/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="pictures/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0f4655">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#102d4b">
+    <script src="main.js"></script>
+    <title>C Play NOW+</title>
+</head>
+
+<body>
+    <header>
+        <img src="/pictures/cpNOW.PNG" alt="logo" width="100px">
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="#latest-movies">LATEST RELEASES</a></li>
+            <li><a href="#movies">MOVIES</a></li>
+            <li><a href="#series">SERIES</a></li>
+            <li><a href="#actors">ACTORS</a></li>
+        </ul>
+        <a href="/login/login.html" target="_blank"><button>Login</button></a>
+    </header>
+    <section class="main">
+        <div class="child">
+            <div class="inside-child">
+                <span>NOW STREAMING</span>
+                <div class="line1">
+                </div>
+                <h1>Game of Thrones</h1>
+                <p>Action, Adventure, Drama, Sci-fi | 2011-2019 | USA | + 70 h</p>
+            </div>
+        </div>
+        <img autoplay="autoplay" loop="loop" width="640" height="360" src="/videos/got.mp4"></img>
+        <div class="main-child">
+            <button><i class="fa-solid fa-play"></i>Watch NOW</button>
+            <button onclick="myFunction()"><i class="fa-solid fa-heart"></i>Wishlist</button>
+        </div>
+    </section>
+
+    <section>
+        <div id="latest-movies" class="latest-movies">
+            <h1>Latest Releases on CP NOW+</h1>
+            <div class="slideshow-container">
+                <div class="latest-container">
+                    <div class="latest-inside">
+                        <img src="/pictures/trendy/lucifer.png" alt="">
+                        <div class="heading1">
+                            <h3>Lucifer</h3>
+                            <h6>Mystery,
+                                Comedy,
+                                Urban fantasy.</h6>
+                        </div>
+                    </div>
+                    <div class="latest-inside">
+                        <img src="/pictures/trendy/crown.png" alt="">
+                        <div class="heading1">
+                            <h3>The Crown</h3>
+                            <h6>Drama,
+                                History.</h6>
+                        </div>
+                    </div>
+                    <div class="latest-inside">
+                        <img src="/pictures/trendy/witcher.png" alt="">
+                        <div class="heading1">
+                            <h3>The Witcher</h3>
+                            <h6>Adventure,
+                                Fantasy,
+                                Drama.</h6>
+                        </div>
+                    </div>
+                    <div class="latest-inside">
+                        <img src="/pictures/trendy/you.png" alt="">
+                        <div class="heading1">
+                            <h3>You</h3>
+                            <h6>Psychological thriller,
+                                Drama,
+                                Crime.</h6>
+                        </div>
+                    </div>
+                    <div class="latest-inside">
+                        <img src="/pictures/trendy/breakingbad.png" alt="">
+                        <div class="heading1">
+                            <h3>Breaking Bad</h3>
+                            <h6>Thriller,
+                                Drama,
+                                Tragedy.</h6>
+                        </div>
+                    </div>
+                    <div class="latest-inside">
+                        <img src="/pictures/trendy/dexter.png" alt="">
+                        <div class="heading1">
+                            <h3>Dexter</h3>
+                            <h6>Crime,
+                                Mystery,
+                                Suspense.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="top-movies" id="movies">
+            <h1>Top Movies on CP NOW+</h1>
+            <div class="top-container">
+                <div class="top-inside">
+                    <img src="/pictures/movies/inception.png" alt="">
+                    <h3>Inception</h3>
+                    <h6>Science fiction,
+                        Thriller,
+                        Adventure.</h6>
+                    <div class="imdb">
+                        <p>8.7</p>
+                    </div>
+                </div>
+                <div class="top-inside">
+                    <img src="/pictures/movies/spiderman.png" alt="">
+                    <h3>Spider-Man: No Way Home</h3>
+                    <h6>Superhero,
+                        Adventure.</h6>
+                    <div class="imdb">
+                        <p>8.2</p>
+                    </div>
+                </div>
+                <div class="top-inside">
+                    <img src="/pictures/movies/godfather.png" alt="">
+                    <h3>The Godfather</h3>
+                    <h6>Mafia,
+                        Drama,
+                        Crime.</h6>
+                    <div class="imdb">
+                        <p>9.2</p>
+                    </div>
+                </div>
+                <div class="top-inside">
+                    <img src="/pictures/movies/batman.png" alt="">
+                    <h3>The Dark Knight</h3>
+                    <h6>Superhero,
+                        Thriller,
+                        Mystery.</h6>
+                    <div class="imdb">
+                        <p>9.2</p>
+                    </div>
+                </div>
+                <div class="top-inside">
+                    <img src="/pictures/movies/shawshank.png" alt="">
+                    <h3>Shawshank Redemption</h3>
+                    <h6>Prison,
+                        Drama,
+                        Mystery.</h6>
+                    <div class="imdb">
+                        <p>9.2</p>
+                    </div>
+                </div>
+                <div class="top-inside">
+                    <img src="/pictures/movies/schindler.png" alt="">
+                    <h3>Schindler's List</h3>
+                    <h6>War,
+                        History.</h6>
+                    <div class="imdb">
+                        <p>8.9</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more1">
+            <a target="_blank" href="/swiper/movies.html">View More</a>
+        </div>
+    </section>
+    <section>
+        <div id="series" class="clay-series">
+            <h1>Top Series on CP NOW+</h1>
+            <div class="clay-container">
+                <div class="clay-inside">
+                    <img src="/pictures/series/blacklist.png" alt="">
+                    <h3>Blacklist</h3>
+                    <h6>Crime,
+                        Thriller
+                        Mystery.</h6>
+                    <div class="imdb">
+                        <p>8.8</p>
+                    </div>
+                </div>
+                <div class="clay-inside">
+                    <img src="/pictures/series/prisonbreak.png" alt="">
+                    <h3>Prison Break</h3>
+                    <h6>Action,
+                        Thriller,
+                        Adventure,
+                        Mystery.</h6>
+                    <div class="imdb">
+                        <p>9.3</p>
+                    </div>
+                </div>
+                <div class="clay-inside">
+                    <img src="/pictures/series/got.png" alt="">
+                    <h3>Game of Thrones</h3>
+                    <h6>Action,
+                        Adventure,
+                        Drama,
+                        Sci-fi</h6>
+                    <div class="imdb">
+                        <p>9.8</p>
+                    </div>
+                </div>
+                <div class="clay-inside">
+                    <img src="/pictures/series/breakingbad.png" alt="">
+                    <h3>Breaking Bad</h3>
+                    <h6>Thriller,
+                        Drama,
+                        Tragedy.</h6>
+                    <div class="imdb">
+                        <p>9.9</p>
+                    </div>
+                </div>
+                <div class="clay-inside">
+                    <img src="/pictures/series/squidgame.png" alt="">
+                    <h3>Squid Game</h3>
+                    <h6>Survival
+                        Thriller
+                        Horror fiction.</h6>
+                    <div class="imdb">
+                        <p>8.4</p>
+                    </div>
+                </div>
+                <div class="clay-inside">
+                    <img src="/pictures/series/st4.png" alt="">
+                    <h3>Stranger Things</h3>
+                    <h6>Horror fiction,
+                        Supernatural,
+                        Thriller.</h6>
+                    <div class="imdb">
+                        <p>8.6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more2">
+            <a target="_blank" href="/series/series.html">View More</a>
+        </div>
+    </section>
+    <section class="actors" id="actors">
+        <div class="line">
+        </div>
+        <div class="actors-section">
+            <h1>Trending Hollywood Actors</h1>
+            <p>Actors of the year <i class="fa-solid fa-crown"></i></p>
+            <div class="actors-container">
+                <div class="inside-actors">
+                    <img src="/pictures/actors/jd.png" alt="">
+                    <div class="heading2">
+                        <h2>Johnny Depp</h2>
+                        <a target="_blank" href="https://www.instagram.com/johnnydepp/">
+                            <i class="fa-brands fa-instagram"> 26.2 M</i>
+                        </a>
+                        <p>59 years old</p>
+                    </div>
+                </div>
+                <div class="inside-actors">
+                    <img src="/pictures/actors/rd.png" alt="">
+                    <div class="heading2">
+                        <h2>Robert Downey</h2>
+                        <a target="_blank" href="https://www.instagram.com/robertdowneyjr/">
+                            <i class="fa-brands fa-instagram"> 53.1 M</i>
+                        </a>
+                        <p>57 years old</p>
+                    </div>
+                </div>
+                <div class="inside-actors">
+                    <img src="/pictures/actors/ce.png" alt="">
+                    <div class="heading2">
+                        <h2>Chris Evans</h2>
+                        <a target="_blank" href="https://www.instagram.com/chrisevans/">
+                            <i class="fa-brands fa-instagram"> 16.8 M</i>
+                        </a>
+                        <p>41 years old</p>
+                    </div>
+                </div>
+                <div class="inside-actors">
+                    <img src="/pictures/actors/ws.png" alt="">
+                    <div class="heading2">
+                        <h2>Will Smith</h2>
+                        <a target="_blank" href="https://www.instagram.com/willsmith/">
+                            <i class="fa-brands fa-instagram"> 64.3 M</i>
+                        </a>
+                        <p>53 years old</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="inside-footer">
+            <div class="footer-container">
+                <div class="logopart">
+                    <img src="/pictures/cpnow.PNG" alt="">
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy <span>Clay Dev</span> all Rights Reserved 2022.</p>
+                </div>
+                <div class="socials">
+                    <a href="https://www.instagram.com/clay.focus/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/ClayKrr" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/clay_focus" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCFZzXrGZjKVeFRcnsRvaQjg" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+                <div class="btn4">
+                    <a href="/contact/index.html" target="_blank"><button onclick="sendMail(); return false">
+                            Contact US </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll">
+        <button onclick='window.scrollTo({top: 0, behavior: "smooth"});'><i class="fas fa-arrow-up"></i></button>
+    </div>
+
+</body>
+
+</html>
