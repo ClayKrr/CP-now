@@ -8,9 +8,7 @@ YOU: -Probably: Netflix HBO Max Amazone Prime Apple TV+ HuLu Disney+...etc
 
 Intreducing CP NOW+
 
-
--CP NOW+ is a Free Streaming Website for all of movies&series around the world!
-
+#-CP NOW+ is a Free Streaming Website for all of movies&series around the world!
 No annoying ads included.
 Modern Design.
 Free to watch for all users.
@@ -21,5 +19,6 @@ What outcomes do I want to achieve ?
 Are there problems with your existing site?
 -No for the laptops desktops computers and monitos, the mobile version is under development.
 
+The servers which will be added in the future to host your experience are safe, fast, and 100% working.
 
-The servers which will be used to host your experience are safe, fast, and 100% working.
+CP+ and chill?
