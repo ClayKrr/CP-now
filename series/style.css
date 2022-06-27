@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Roboto&display=swap');
+:root{
+    --colorOne: #141414;
+    --colorTwo: #5c5c5c;
+    --colorWhite: #e5e5e5;
+    --tileBorderRadius: 4px;
+    --fontOne: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: 0 !important;
+}
+body{
+    font-family: 'Cinzel', serif;
+    background-color: #181818;
+}
+.headerLogo{
+    width: 150px;
+    float: right;
+    margin-top: -20px;
+}
+.thumbSection{
+    padding-top: 3%;
+    color: var(--colorWhite);
+}
+.thumbTitle{
+    font-size: 25px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #A1B7CC;
+    margin: 20px 4% 2% 100px;
+}
+.thumbTiles.swiper-container{
+    padding: 0 4%;
+}
+.thumbTile{
+    width: 20%;
+    line-height: 1.5;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.thumbTile__image{
+    width: 100%;
+    padding: 10px;
+    transition: all .5s ease-in-out;
+    border-radius: 20px;
+}
+.thumbTile__image:hover{
+    cursor: grab;
+    transform: scale(1.2);
+}
