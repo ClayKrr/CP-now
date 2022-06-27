@@ -21,4 +21,4 @@ Are there problems with your existing site?
 
 The servers which will be added in the future to host your experience are safe, fast, and 100% working.
 
-CP+ and chill?
+CP Now+ and chill?
